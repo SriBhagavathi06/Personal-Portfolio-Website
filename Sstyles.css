@@ -1,0 +1,151 @@
+/*{
+	padding:0;
+	margin:0;
+	font-family:sans-serif;
+}*/
+body{
+	background:linear-gradient(to right,#300b51 0%,#300b51 50%,#250940 50%,#250940 100%);
+	padding:0;
+	margin:0;
+	font-family:sans-serif;
+}
+.C{
+	height:100vh;
+	width:100%
+	background-size:100% 100%;
+}
+.logo{
+	height:100px;
+	width:150px;
+	margin-top:10px;
+}
+button{
+	position:absolute;
+	transform:translate(-50%,-50%);
+	text-align:right;
+	top:9%;
+	right:10%;
+	font-size:20px;
+	font-weight:bold;
+	padding:5px 10px;
+	background:gold;
+	border-radius:50px;
+	border-color:gold;
+}	
+.a{
+	height:100vh;
+	display:flex;
+	/*justify-content:center;
+	align-items:center;*/
+	gap:550px;
+	padding:0 40px;
+}
+
+.curved,.curved1{
+	width:250px;
+	height:300px;
+	background-color:white;
+	box-shadow:10px 10px 5px gold;
+	padding:10px 30p;
+}
+.curved{
+	border-radius:50px 15px;
+	justify-content:center;
+	align-items:center;
+	margin-top:70px;
+	margin-left:200px;
+}
+.curved1{
+	border-radius:15px 50px;
+	justify-content:center;
+	align-items:center;
+	margin-top:70px;
+}
+h1{
+	color:gold;
+	font-weight:bold;
+	font-size:40px;
+	margin-top:0;
+	text-align:center;
+	text-shadow:1.5px 1.5px lightblue;
+}
+	
+h2{
+	color:black;
+	font-weight:bold;
+	font-size:30px;
+	text-align:center;
+	text-shadow:1.5px 1.5px black;
+}
+p{
+	color:black;
+	font-weight:bold;
+	font-size:20px;
+	text-align:center;
+	text-shadow:1px 1px black;
+}
+.corner-border {
+    	position: fixed;
+    	width: 50px; 
+    	height: 50px; 
+    	border: 2px solid;
+    	z-index: 1;
+    	animation: borderAnimation 2s infinite alternate;
+}
+
+.top-left {
+    	top: 0;
+    	left: 0;
+    	border-image: linear-gradient(to bottom right, #FF9A8B, #FFD5A1);
+    	border-image-slice: 1;
+}
+
+.top-right {
+    	top: 0;
+    	right: 0;
+    	border-image: linear-gradient(to bottom left, #B4DBD9, #81A1C1);
+    	border-image-slice: 1;
+}
+
+.bottom-left {
+    	bottom: 0;
+    	left: 0;
+    	border-image: linear-gradient(to top right, #E5989B, #6D6875);
+    	border-image-slice: 1;
+}
+
+.bottom-right {
+    	bottom: 0;
+    	right: 0;
+    	border-image: linear-gradient(to top left, #FFE156, #6A0572);
+    	border-image-slice: 1;
+}
+
+.content {
+    	position: relative;
+    	z-index: 2;
+    	padding: 20px;
+    	color: #333;
+}
+
+@keyframes borderAnimation {
+    to {
+        transform: scale(1.2);
+    }
+}
+.golden-dots {
+    	position:absolute;
+    	width: 100%;
+    	height: 100%;
+}
+
+.golden-dots::before {
+    	content: "";
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	width: 100%;
+    	height: 90%;
+    	background: radial-gradient(circle, #ffd700 5%, transparent 5.1%);
+    	background-size: 10px 10px; 
+}
