@@ -1,0 +1,77 @@
+body{
+	margin:0;
+	padding:0;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	min-height:100vh;
+	font-family:serif; 
+}
+.C{
+	height:100vh;
+	width:100%;
+	background:linear-gradient(50deg,#5b9aa0,#622569,#c83349);
+	background-size:200% 200%;
+	animation:color 10s ease-in-out infinite;
+}
+@keyframes color{
+	0%{
+		background-position:0 40%;
+	}
+	50%{
+		background-position:40% 30%;
+	}
+	100%{
+		background-position:30% 50%;
+	}
+}
+.logo{
+	height:100px;
+	width:150px;
+	margin-top:10px;
+}
+button{
+	position:absolute;
+	transform:translate(-50%,-50%);
+	text-align:right;
+	top:9%;
+	right:10%;
+	font-size:20px;
+	font-weight:bold;
+	padding:5px 10px;
+	background:gold;
+	border-radius:50px;
+	border-color:gold;
+}	
+.C p{
+	font-size:25px;
+	margin-left:200px;
+	margin-right:200px;
+	margin-top:100px;
+	padding:20px;
+	background:linear-gradient(#8360c3,#2ebf91);
+	box-shadow:10px 10px 5px 5px ;
+	text-shadow:1px 1px black;
+}
+p a{
+	font-weight:bold;
+}
+
+.C h1{
+	font-size:40px;
+	color:#ffdf00;
+	margin-top:0;
+	margin-left:550px;
+	text-decoration:none;
+	padding:0 80px;
+	text-shadow:1.5px 1.5px black;
+}
+.C p:first-letter{
+	font-size:80px;
+	float:left;
+	line-height:.9em;
+	padding-right:10px;
+	text-shadow:1.5px 1.5px gold; 
+}
+	
+

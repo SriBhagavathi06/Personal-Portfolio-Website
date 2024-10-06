@@ -1,0 +1,164 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background:linear-gradient(-350deg,black,blueviolet) 
+}
+
+.A div {
+	width: 100vw;
+	height: 100vh;
+  	position: relative;
+}
+
+nav{
+	display:flex;
+	width:84%;
+	margin:auto;
+	padding:20px 0;
+	align-items:center;
+	justify-content:space-between;
+}
+nav ul li{
+	display:inline-block;
+	list-style:none;
+	margin:10px 20px;
+}
+nav ul li a{
+	text-decoration:none;
+	color:Black;
+	front-weight:bold;
+	font-size:1.3em;
+	font-family:Arial,Helvetica,sans-serif;
+	text-shadow:1.5px 1.5px ; 
+}
+nav ul li a:hover{
+	color:gold;
+}
+.B{
+	margin-left:20%;
+	margin-top:7%;
+}
+.B h1{
+	font-size:50px;
+	color:Black;
+	margin-bottom:20px;
+}
+span{
+	color:Gold;
+	text-shadow:1.5px 1.5px silver;
+}
+.B h2{
+	font-size:30px;
+	color:Navy;
+	font-color:Black;
+}
+.B p{
+	color:Black;
+	line-height:30px;
+	font-size:20px;
+	font-weight:bold;
+}
+.B a{
+	background:Black;
+	padding:20px 70px;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:20px;
+	color:Snow;
+	display:inline-block;
+	margin:20px 0;
+	border-radius:5px;
+}
+.background {
+  	width: 100vw;
+  	height: 100vh;
+  	position: relative;
+}
+
+.sheet {
+  	width: 120px;
+  	height: 160px;
+  	background-color:  #250940;
+  	border: 1px solid gold;
+  	box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.3);
+  	position: absolute;
+}
+
+.sheet:nth-child(1) {
+  	top: 1px;
+  	right: 30px;
+  	transform: rotate(10deg);
+}
+
+.sheet:nth-child(2) {
+  	top: 80px;
+  	right: 200px;
+  	width: 180px;
+  	height: 240px;
+  	transform: rotate(-20deg); 
+}
+
+.sheet:nth-child(3) {
+  	top: 150px;
+  	right: 100px;
+  	width: 100px;
+  	height: 120px;
+  	transform: rotate(20deg); 
+}
+
+.sheet:nth-child(4) {
+  	top: 270px;
+  	right: 250px;
+  	width: 140px;
+  	height: 180px;
+  	transform: rotate(-25deg);
+}
+
+.sheet:nth-child(5) {
+  	top: 355px;
+  	right: 130px;
+  	width: 160px;
+  	height: 200px;
+  	transform: rotate(5deg);
+}
+
+.sheet:nth-child(6) {
+  	top: 450px;
+  	right: 300px;
+  	width: 120px;
+  	height: 160px;
+  	transform: rotate(-40deg);
+}
+
+.sheet:nth-child(7) {
+  	top: 510px;
+  	right: 50px;
+  	width: 140px;
+  	height: 180px;
+  	transform: rotate(30deg);
+}
+
+.sheet:nth-child(8) {
+  	top: 610px;
+  	right: 200px;
+  	width: 200px;
+  	height: 260px;
+  	transform: rotate(-15deg);
+}
+
+.sheet:nth-child(9) {
+  	top: 670px;
+  	right: 350px;
+  	width: 160px;
+  	height: 220px;
+  	transform: rotate(30deg);
+}
+
+.sheet:nth-child(10) {
+  	top: 690px;
+  	right: 100px;
+  	width: 180px;
+  	height: 240px;
+  	transform: rotate(-8deg);
+}
